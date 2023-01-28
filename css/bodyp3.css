@@ -1,0 +1,137 @@
+.ms{
+    position: absolute;
+    top: 22px;
+    left:184px;
+    height: 33px;
+    width: 88px;
+    /* background-color: pink; */
+    padding: 3px 15px;
+    border-left: 1px red solid;
+    
+}
+.cfy ul{
+    float: right;
+}
+.cfy ul li{
+    float: left;
+    padding: 0 23px;
+    font-size: 14px;
+    line-height: 50px;
+}
+.classify .title{
+    float: left;
+    font-size: 16px;
+    font-weight: 700;
+    ;
+}
+.ban{
+    height: 118px;
+    /* background-color: pink; */
+}
+.banner img{
+    height: 100%;
+    width: 100%;
+}
+.telshopping{
+     margin-top: 10px;
+     margin-bottom: 20px;
+    position: relative;
+    height: 460px;
+    /* background-color: pink; */
+   
+}
+.telshopping .goods{
+    float: left;
+    margin-right: 9px;
+    width: 291px;
+    height: 460px;
+    /* background-color: powderblue; */
+   
+    border: 1px solid transparent;
+}
+.telshopping .goods .im{
+    width: 100%;
+    height: 272px;
+    /* background-color: purple; */
+    
+}
+.telshopping .goods .im{
+    padding: 50px 88px;
+}
+.telshopping .goods p{
+    margin: 20px 10px;
+}
+.telshopping .pri{
+    margin-left: 10px;
+    height: 26px;
+    width: 200px;
+    /* background-color: royalblue; */
+}
+.telshopping .pri i{
+font-size: 22px;
+color: #e60012;
+}
+.telshopping .pri span{
+    
+    margin-left: 20px;
+    text-decoration: line-through;
+    color: #b2b2b2;
+    margin-left: 10px;
+}
+.telshopping .number{
+    position: relative;
+    margin-top: 5px;
+    height: 30px;
+    width: 100%;
+    /* background-color: salmon; */
+    padding: 0 10px;
+}
+.telshopping .number .bar{
+    position: absolute;
+    top: 0;
+    left: 75px;
+    height: 15px;
+    width: 130px;
+    /* background-color: seagreen; */
+    border: 1px #e60012 solid;
+    border-radius: 7px;
+    
+}.telshopping .number .bar .pointer{
+    height: 15px;
+    width: 100%;
+    border-radius: 7px;
+    background-color: red;
+    transition: all .3s;
+}
+.telshopping .number .bar:hover .pointer{
+    width: 87%;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+.telshopping .number::before{
+    content: '已售87%';
+}
+.telshopping .number .surplus{
+    
+    float: right;
+
+}
+.telshopping .number .surplus i{
+    color:#b1191a;
+}
+.telshopping button{
+    position: absolute;
+    bottom: -51px;
+    left: 0;
+    width: 100%;
+    height: 51px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 51px;
+    background-color: #b1191a;
+    border: none;
+}
+.goods:hover{
+    border: 1px #b1191a solid;
+}

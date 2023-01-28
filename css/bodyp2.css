@@ -1,0 +1,158 @@
+.search{
+    margin-top: 24px;
+    height: 60px;
+    /* background-color: pink; */
+    border-bottom: 2px #b1191a solid;
+}
+.search .logo{
+    float: left;
+    height: 60px;
+    width: 175px;
+    margin-top: -6px;
+/* background-color: black; */
+}
+.register{
+    height: 510px;
+    border: 1px #999999 solid;
+    margin-top: 20px;
+}
+.register .head{
+    height: 45px;
+    background-color: #ececec;
+}
+.register .head::before{
+    content:'注册新用户';
+    font-size: 16px;
+    line-height: 45px;
+    margin-left: 20px;
+}
+.register .head .box{
+    float: right;
+    width: 130px;
+    /* background-color: plum; */
+    height: 45px;
+    font-size: 14px;
+    line-height: 45px;
+}
+.register .head .box a{
+    color:#b1191a;
+}
+.register .body{
+    position: relative;
+    width: 546px;
+    height: 377px;
+    /* background-color: pink; */
+    margin-left: 313px ;
+    margin-top :30px;
+}
+.register .body ul{
+    overflow: hidden;
+    float: left;
+    margin-top: 45px;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -124px;
+    margin-top: -150px; */
+}
+.register .body ul li{
+    height: 32px;
+    margin-bottom: 30px;
+width: 500px;
+vertical-align: middle;
+    
+}
+
+.register .body ul li input{
+    width: 242px;
+    height: 35px;
+    float: left;
+    border: 1px #999999 solid;
+}
+.register .body ul li p{
+    display: block;
+    float: left;
+    width: 84px;
+    height: 35px;
+}
+.register .body ul li p span{
+    float: right;
+    margin-top: 3px;
+    font-size: 14px;
+}
+.register .body ul li:nth-child(3){
+    height: 50px;
+}
+.register .body ul li div{
+    margin-top: 10px;
+    float: right;
+    margin-right: 173px;
+}
+.register .body ul li div span{
+    display: inline-block;
+    margin:0 2px;
+    width: 40px;
+    text-align: center;
+    color: white;
+}
+.register .body ul li div span:first-child{
+    background-color: #b1191a;
+}
+
+.register .body ul li div span:nth-child(2){
+    background-color: #40b83f;
+}
+.register .body ul li div span:nth-child(3){
+    background-color: #f79100;
+}
+.register .body ul li h3{
+    display: inline-block;
+    height: 32px;
+    line-height: 32px;
+    font-size: 12px;
+    font-weight: 400;
+    color:#b1191a ;
+    margin-left: 3px;
+}
+
+.register .body .protocol{
+    
+    position: absolute;
+    left: 85px;
+    top:304px;
+    width: 234px;
+    height: 32px;
+    /* background-color: wheat; */
+    /* line-height: 32px; */
+}
+.register .body .protocol a{
+    color: #1ba1e6;
+}
+.register .body .protocol input{
+    vertical-align: middle;
+}
+.register .body .login{
+    position: absolute;
+    top: 341px;
+    left: 85px;
+    width: 197px;
+    height: 35px;
+    font-weight: 700;
+    color:white ;
+    background-color: #b1191a ;
+    text-align: center;
+    line-height: 35px;
+}
+.footer {
+   
+    height: 67px;
+    margin-top: 25px;
+    background-color: white;
+}
+.bottom {
+    height: 90px;
+    /* background-color: rgba(0, 0, 0,.3); */
+}
+.bottom .box {
+    height: 35px;
+}
